@@ -39,57 +39,37 @@
 
 <body>
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top">
-    <div class="container d-flex align-items-center">
+ <!-- ======= Header ======= -->
+ <header id="header" class="fixed-top">
+  <div class="container d-flex align-items-center">
 
-      <h1 class="logo me-auto"><a href="index.html">Mentor</a></h1>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+    <h1 class="logo me-auto"><a href="index.html">Farol<br>Academy</a></h1>
+    <!-- Uncomment below if you prefer to use an image logo -->
+    <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
-      <nav id="navbar" class="navbar order-last order-lg-0">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="courses.html">Courses</a></li>
-          <li><a href="trainers.html">Trainers</a></li>
-          <li><a class="active" href="events.html">Events</a></li>
-          <li><a href="pricing.html">Pricing</a></li>
+    <nav id="navbar" class="navbar order-last order-lg-0">
+      <ul>
+        <li><a class="active" href="index.html">Inicio</a></li>
+        <li><a href="about.html">Sobre</a></li>
+        <li><a href="courses.html">Cursos</a></li> 
+        <li><a href="trainers.html">Certificados</a></li>
+        <li><a href="contact.html">Dashboard</a></li>
+      </ul>
+      <i class="bi bi-list mobile-nav-toggle"></i>
+    </nav><!-- .navbar -->
 
-          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-            </ul>
-          </li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
+    <a href="#" class="get-started-btn">BEM VINDO, João!</a>
 
-      <a href="courses.html" class="get-started-btn">Get Started</a>
-
-    </div>
-  </header><!-- End Header -->
+  </div>
+</header><!-- End Header -->
 
   <main id="main">
 
     <!-- ======= Breadcrumbs ======= -->
     <div class="breadcrumbs" data-aos="fade-in">
       <div class="container">
-        <h2>Events</h2>
-        <p>Est dolorum ut non facere possimus quibusdam eligendi voluptatem. Quia id aut similique quia voluptas sit quaerat debitis. Rerum omnis ipsam aperiam consequatur laboriosam nemo harum praesentium. </p>
+        <h2>Responda as perguntas</h2>
+        <p>As perguntas são abertas, e você não tem tempo para responder, assim que terminar de colocar suas respostas, clique no botão de ENVIAR é você será direcionado para outra página. </p>
       </div>
     </div><!-- End Breadcrumbs -->
 
@@ -97,34 +77,221 @@
     <section id="events" class="events">
       <div class="container" data-aos="fade-up">
 
-        <div class="row">
-          <div class="col-md-6 d-flex align-items-stretch">
-            <div class="card">
-              <div class="card-img">
-                <img src="assets/img/events-1.jpg" alt="...">
-              </div>
-              <div class="card-body">
-                <h5 class="card-title"><a href="">Introduction to webdesign</a></h5>
-                <p class="fst-italic text-center">Sunday, September 26th at 7:00 pm</p>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 d-flex align-items-stretch">
-            <div class="card">
-              <div class="card-img">
-                <img src="assets/img/events-2.jpg" alt="...">
-              </div>
-              <div class="card-body">
-                <h5 class="card-title"><a href="">Marketing Strategies</a></h5>
-                <p class="fst-italic text-center">Sunday, November 15th at 7:00 pm</p>
-                <p class="card-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</p>
-              </div>
-            </div>
+        <h1>Questionário</h1>
 
-          </div>
-        </div>
+    <form id="quizForm">
+        <p><strong>Pergunta 01: O que significa HTML?</strong></p>
+        <label>
+            <input type="radio" name="q1" value="a"> a)  Hyperlink Text Markup Language
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="q1" value="b"> b) Hyper Text Makeup Language
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="q1" value="c"> c)  Hyper Text Markup Language
+        </label>
+        <br>  
+        <br>
 
+        <p><strong> Pergunta 02: Qual linguagem de estilo é usada para estilizar páginas web?</strong></p>
+        <label>
+            <input type="radio" name="q2" value="a"> a) Java
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="q2" value="b"> b) Html
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="q2" value="c"> c) Css
+        </label>
+        <br>
+        <br>  
+    
+        <p><strong> Pergunta 03: Qual linguagem de programação é usada para criar interatividade em páginas web??</strong></p>
+        <label>
+            <input type="radio" name="q3" value="a"> a) JavaScript
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="q3" value="b"> b) Html
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="q3" value="c"> c) Sql
+        </label>
+        <br>
+        <br>
+        <p><strong> Pergunta 04: O que é responsividade em desenvolvimento web?</strong></p>
+        <label>
+            <input type="radio" name="q4" value="a"> a) A capacidade de adaptar um site a diferentes tamanhos de tela
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="q4" value="b"> b) A habilidade de criar designs de sites atraentes
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="q4" value="c"> c) A capacidade de adicionar recursos sociais a um site
+        </label>
+        <br>
+        <br>
+        <p><strong> Pergunta 05: Qual das seguintes opções é um framework frontend popular?</strong></p>
+        <label>
+            <input type="radio" name="q5" value="a"> a) React
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="q5" value="b"> b) Python
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="q5" value="c"> c) Apache
+        </label>
+        <br>
+        <br>
+        <p><strong> Pergunta 06: Para que serve um sistema de controle de versão, como o Git?</strong></p>
+        <label>
+            <input type="radio" name="q6" value="a"> a) Para rastrear alterações no código-fonte
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="q6" value="b"> b) Para hospedar sites na web
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="q6" value="c"> c) Para criar animações em sites
+        </label>
+        <br>
+        <br>
+        <p><strong> Pergunta 07: O que é um servidor web?</strong></p>
+        <label>
+            <input type="radio" name="q7" value="a"> a) Um computador que armazena e distribui páginas web
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="q7" value="b"> b) Html
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="q7" value="c"> c) Sql
+        </label>
+        <br>
+        <br>
+        <p><strong> Pergunta 08: Qual protocolo é usado para transferir dados da web de forma segura?</strong></p>
+        <label>
+            <input type="radio" name="q8" value="a"> a) HTTPS
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="q8" value="b"> b)  FTP
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="q8" value="c"> c) FCT
+        </label>
+        <br>
+        <br>
+        <p><strong> Pergunta 09: O que é um banco de dados em desenvolvimento web?</strong></p>
+        <label>
+            <input type="radio" name="q9" value="a"> a) Um local para armazenar e gerenciar dados
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="q9" value="b"> b) Um navegador da web
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="q9" value="c"> c) Uma ferramenta de design de sites
+        </label>
+        <br>
+        <br>
+        <p><strong> Pergunta 10: O que significa CMS em desenvolvimento web?</strong></p>
+        <label>
+            <input type="radio" name="q10" value="a"> a) Sistema de Gerenciamento de Conteúdo
+        <br>
+        <label>
+            <input type="radio" name="q10" value="b"> b) Sistema de Controle de Vírus
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="q10" value="c"> c) Controle de Mensagens Seguras
+        </label>
+        <br>
+        <br>
+       
+        <input type="submit" value="Verificar Respostas">
+    </form>
+
+    <div id="result"></div>
+
+
+
+
+
+    <script>
+        const quizForm = document.getElementById('quizForm');
+        const resultDiv = document.getElementById('result');
+
+        quizForm.addEventListener('submit', function (e) {
+            e.preventDefault();
+            const q1Answer = quizForm.elements.q1.value;
+            const q2Answer = quizForm.elements.q2.value;
+            const q3Answer = quizForm.elements.q3.value;
+            const q4Answer = quizForm.elements.q4.value;
+            const q5Answer = quizForm.elements.q5.value;
+            const q6Answer = quizForm.elements.q6.value;
+            const q7Answer = quizForm.elements.q7.value;
+            const q8Answer = quizForm.elements.q8.value;
+            const q9Answer = quizForm.elements.q9.value;
+            const q10Answer = quizForm.elements.q10.value;
+
+            let score = 0;
+
+            if (q1Answer === 'a') {
+                score++;
+            }
+
+            if (q2Answer === 'a') {
+                score++;
+            }
+
+            if (q3Answer === 'a') {
+                score++;
+            }
+
+            if (q4Answer === 'a') {
+                score++;
+            }
+            if (q5Answer === 'a') {
+                score++;
+            }
+            if (q6Answer === 'a') {
+                score++;
+            }
+            if (q7Answer === 'a') {
+                score++;
+            }
+            if (q8Answer === 'a') {
+                score++;
+            }
+            if (q9Answer === 'a') {
+                score++;
+            }
+            if (q10Answer === 'a') {
+                score++;
+            }
+            resultDiv.innerHTML = `Você acertou ${score} de 10 perguntas.`;
+        });
+    </script>
+              <br>
+                <br>
+              <a href="course-details.html" class="get-started-btn"><strong>PROXIMO VIDEO</strong></a>   
+              
+           
+      
       </div>
     </section><!-- End Events Section -->
 
@@ -136,46 +303,6 @@
     <div class="footer-top">
       <div class="container">
         <div class="row">
-
-          <div class="col-lg-3 col-md-6 footer-contact">
-            <h3>Mentor</h3>
-            <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br><br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
-            </p>
-          </div>
-
-          <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Join Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
           </div>
 
         </div>
@@ -193,7 +320,7 @@
           <!-- You can delete the links only if you purchased the pro version. -->
           <!-- Licensing information: https://bootstrapmade.com/license/ -->
           <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/mentor-free-education-bootstrap-theme/ -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          Designed by <a href="https://bootstrapmade.com/">Equipe Fluxograma</a>
         </div>
       </div>
       <div class="social-links text-center text-md-right pt-3 pt-md-0">
