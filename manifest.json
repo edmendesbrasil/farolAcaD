@@ -6,11 +6,12 @@
 "orientation": "any",
   "lang": "pt-br",
 "description": "Levando conhecimento até você.",
-"icons":[ 
+
+"icons": [ 
+
 
 
 {
-<<<<<<< HEAD
     "src": "assets/img/AppIcons/android/mipmap-hdpi/ic_launcher.png",
     "sizes": "72x72",
     "type": "android/png"
@@ -43,244 +44,222 @@
 
 
 {
-    "src": "aassets/img/AppIcons/AssetsApp/AppIconSet/16.png",
-=======
-    "src": "assets/img/AppIcons/AssetsApp/AppIconSet/16.png",
->>>>>>> 8813eb9cc7c88dad0d5a8ca5a0bcdf168ed8694d
+    "src": "Mentor/assets/img/AppIcons/AssetsApp/AppIconSet/16.png",
     "sizes": "16x16",
     "type": "image/png"
 },
 
 {
-    "src": "assets/img/AppIcons/AssetsApp/AppIconSet/20.png",
+    "src": "Mentor/assets/img/AppIcons/AssetsApp/AppIconSet/20.png",
     "sizes": "20x20",
     "type": "image/png"
 },
 
 {
-    "src": "assets/img/AppIcons/AssetsApp/AppIconSet/29.png",
+    "src": "Mentor/assets/img/AppIcons/AssetsApp/AppIconSet/29.png",
     "sizes": "29x29",
     "type": "image/png"
 },
 
 {
-    "src": "assets/img/AppIcons/AssetsApp/AppIconSet/32.png",
+    "src": "Mentor/assets/img/AppIcons/AssetsApp/AppIconSet/32.png",
     "sizes": "32x32",
     "type": "image/png"
 },
 
 {
-    "src": "assets/img/AppIcons/AssetsApp/AppIconSet/40.png",
+    "src": "Mentor/assets/img/AppIcons/AssetsApp/AppIconSet/40.png",
     "sizes": "40x40",
     "type": "image/png"
 },
 
 {
-    "src": "assets/img/AppIcons/AssetsApp/AppIconSet/48.png",
+    "src": "Mentor/assets/img/AppIcons/AssetsApp/AppIconSet/48.png",
     "sizes": "48x48",
     "type": "image/png"
 },
 
 {
-    "src": "assets/img/AppIcons/AssetsApp/AppIconSet/50.png",
+    "src": "Mentor/assets/img/AppIcons/AssetsApp/AppIconSet/50.png",
     "sizes": "50x50",
     "type": "image/png"
 },
 
 {
-    "src": "assets/img/AppIcons/AssetsApp/AppIconSet/55.png",
+    "src": "Mentor/assets/img/AppIcons/AssetsApp/AppIconSet/55.png",
     "sizes": "55x55",
     "type": "image/png"
 },
 
 {
-    "src": "assets/img/AppIcons/AssetsApp/AppIconSet/57.png",
+    "src": "Mentor/assets/img/AppIcons/AssetsApp/AppIconSet/57.png",
     "sizes": "57x57",
     "type": "image/png"
 },
 
 {
-    "src": "assets/img/AppIcons/AssetsApp/AppIconSet/58.png",
+    "src": "Mentor/assets/img/AppIcons/AssetsApp/AppIconSet/58.png",
     "sizes": "58x58",
     "type": "image/png"
 },
+
 {
-<<<<<<< HEAD
-    "src": "assets/img/AppIcons/AssetsApp/AppIconSet/60.png",
+    "src": "Mentor/assets/img/AppIcons/AssetsApp/AppIconSet/60.png",
     "sizes": "60x60",
     "type": "image/png"
 },
 
 {
-    "src": "assets/img/AppIcons/AssetsApp/AppIconSet/64.png",
+    "src": "Mentor/assets/img/AppIcons/AssetsApp/AppIconSet/64.png",
     "sizes": "64x64",
     "type": "image/png"
 },
 
 {
-    "src": "assets/img/AppIcons/AssetsApp/AppIconSet/66.png",
+    "src": "Mentor/assets/img/AppIcons/AssetsApp/AppIconSet/66.png",
     "sizes": "66x66",
     "type": "image/png"
 },
 
 {
-    "src": "assets/img/AppIcons/AssetsApp/AppIconSet/72.png",
+    "src": "Mentor/assets/img/AppIcons/AssetsApp/AppIconSet/72.png",
     "sizes": "72x72",
     "type": "image/png"
 },
 
 {
-    "src": "assets/img/AppIcons/AssetsApp/AppIconSet/76.png",
+    "src": "Mentor/assets/img/AppIcons/AssetsApp/AppIconSet/76.png",
     "sizes": "76x76",
     "type": "image/png"
 },
 
 {
-    "src": "assets/img/AppIcons/AssetsApp/AppIconSet/80.png",
+    "src": "Mentor/assets/img/AppIcons/AssetsApp/AppIconSet/80.png",
     "sizes": "80x80",
     "type": "image/png"
 },
 
 {
-    "src": "assets/img/AppIcons/AssetsApp/AppIconSet/87.png",
+    "src": "Mentor/assets/img/AppIcons/AssetsApp/AppIconSet/87.png",
     "sizes": "87x87",
     "type": "image/png"
 },
 
 {
-    "src": "assets/img/AppIcons/AssetsApp/AppIconSet/88.png",
+    "src": "Mentor/assets/img/AppIcons/AssetsApp/AppIconSet/88.png",
     "sizes": "88x88",
     "type": "image/png"
 },
 
 {
-    "src": "assets/img/AppIcons/AssetsApp/AppIconSet/92.png",
+    "src": "Mentor/assets/img/AppIcons/AssetsApp/AppIconSet/92.png",
     "sizes": "92x92",
     "type": "image/png"
 },
 
 {
-    "src": "assets/img/AppIcons/AssetsApp/AppIconSet/100.png",
+    "src": "Mentor/assets/img/AppIcons/AssetsApp/AppIconSet/100.png",
     "sizes": "100x100",
     "type": "image/png"
 },
 
 {
-    "src": "assets/img/AppIcons/AssetsApp/AppIconSet/102.png",
+    "src": "Mentor/assets/img/AppIcons/AssetsApp/AppIconSet/102.png",
     "sizes": "102x102",
     "type": "image/png"
 },
 
 {
-=======
->>>>>>> 8813eb9cc7c88dad0d5a8ca5a0bcdf168ed8694d
-    "src": "assets/img/AppIcons/AssetsApp/AppIconSet/114.png",
+    "src": "Mentor/assets/img/AppIcons/AssetsApp/AppIconSet/114.png",
     "sizes": "114x114",
     "type": "image/png"
 },
 
 {
-    "src": "assets/img/AppIcons/AssetsApp/AppIconSet/120.png",
+    "src": "Mentor/assets/img/AppIcons/AssetsApp/AppIconSet/120.png",
     "sizes": "120x120",
     "type": "image/png"
 },
 
-<<<<<<< HEAD
 {
-    "src": "assets/img/AppIcons/AssetsApp/AppIconSet/128.png",
+    "src": "Mentor/assets/img/AppIcons/AssetsApp/AppIconSet/128.png",
     "sizes": "128x128",
     "type": "image/png"
 },
-=======
-
->>>>>>> 8813eb9cc7c88dad0d5a8ca5a0bcdf168ed8694d
 
 {
-    "src": "assets/img/AppIcons/AssetsApp/AppIconSet/144.png",
+    "src": "Mentor/assets/img/AppIcons/AssetsApp/AppIconSet/144.png",
     "sizes": "144x144",
     "type": "image/png"
     
 },
 
 {
-<<<<<<< HEAD
-    "src": "assets/img/AppIcons/AssetsApp/AppIconSet/152.png",
+    "src": "Mentor/assets/img/AppIcons/AssetsApp/AppIconSet/152.png",
     "sizes": "152x152",
     "type": "image/png"
 },
 
 {
-    "src": "assets/img/AppIcons/AssetsApp/AppIconSet/167.png",
+    "src": "Mentor/assets/img/AppIcons/AssetsApp/AppIconSet/167.png",
     "sizes": "167x167",
     "type": "image/png"
 },
 
 {
-    "src": "assets/img/AppIcons/AssetsApp/AppIconSet/172.png",
+    "src": "Mentor/assets/img/AppIcons/AssetsApp/AppIconSet/172.png",
     "sizes": "172x172",
     "type": "image/png"
 },
 
 {
-    "src": "assets/img/AppIcons/AssetsApp/AppIconSet/180.png",
+    "src": "Mentor/assets/img/AppIcons/AssetsApp/AppIconSet/180.png",
     "sizes": "180x180",
-    "type": "image/png",
-    "purpose": "any"
-
-
+    "type": "image/png"
+    
 },
 
 {
-    "src": "assets/img/AppIcons/AssetsApp/AppIconSet/196.png",
+    "src": "Mentor/assets/img/AppIcons/AssetsApp/AppIconSet/196.png",
     "sizes": "196x196",
-    "type": "image/png",
-    "purpose": "maskable"
+    "type": "image/png"
+    
 },
 
 {
-    "src": "assets/img/AppIcons/AssetsApp/AppIconSet/216.png",
+    "src": "Mentor/assets/img/AppIcons/AssetsApp/AppIconSet/216.png",
     "sizes": "216x216",
     "type": "image/png"
     
 },  
 
 {
-=======
->>>>>>> 8813eb9cc7c88dad0d5a8ca5a0bcdf168ed8694d
-    "src": "assets/img/AppIcons/AssetsApp/AppIconSet/256.png",
+    "src": "Mentor/assets/img/AppIcons/AssetsApp/AppIconSet/256.png",
     "sizes": "256x256",
     "type": "image/png"
 },
 
 {
-    "src": "assets/img/AppIcons/AssetsApp/AppIconSet/512.png",
+    "src": "Mentor/assets/img/AppIcons/AssetsApp/AppIconSet/512.png",
     "sizes": "512x512",
-<<<<<<< HEAD
     "type": "image/png",
-    "purpose": "maskable any"
+    "purpose": "any maskable"
 },
 {
-    "src": "assets/img/AppIcons/AssetsApp/AppIconSet/1024.png",
+    "src": "Mentor/assets/img/AppIcons/AssetsApp/AppIconSet/1024.png",
     "sizes": "1024x1024",
     "type": "image/png"
     
+    
 }
 
-=======
-    "type": "image/png",    
-    "purpose": "any maskable"
-}
->>>>>>> 8813eb9cc7c88dad0d5a8ca5a0bcdf168ed8694d
 ],
 "splash_pages": null,
 "start_url": "/index.html",
 "display": "standalone",
 "background_color": "#ffffff",
-  "theme_color": "#078856",
+  "theme_color": "#1aa8e9",
   "id": "Farol Academy",
   "screenshots": [],
-  "categories": [
-    "education"
-    
-  ]
+  "categories": ["education"]
 }
