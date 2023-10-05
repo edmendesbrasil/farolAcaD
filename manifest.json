@@ -45,7 +45,7 @@
 {
     "src": "aassets/AppIcons/AssetsApp/AppIconSet/16.png",
     "sizes": "16x16",
-    "type": "image/png"
+    "type": "img/png"
 },
 
 {
@@ -231,7 +231,8 @@
     "src": "assets/AppIcons/AssetsApp/AppIconSet/216.png",
     "sizes": "216x216",
     "type": "image/png"
-},
+    
+},  
 
 {
     "src": "assets/AppIcons/AssetsApp/AppIconSet/256.png",
@@ -246,7 +247,11 @@
     "purpose": "maskable any"
 },
 
-
+{
+    "src": "assets/AppIcons/AssetsApp/AppIconSet/1024.png",
+    "sizes": "1024x1024",
+    "type": "image/png"
+},
 
 
 
@@ -372,7 +377,7 @@
   "id": "Farol Academy",
   "screenshots": [],
   "categories": [
-    "educacao"
+    "education"
     
   ]
 }
