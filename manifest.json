@@ -100,19 +100,13 @@
     "sizes": "512x512",
     "type": "image/png",    
     "purpose": "any maskable"
-},
-
-{
-    "src": "assets/img/AppIcons/AssetsApp/AppIconSet/1024.png",
-    "sizes": "1024x1024",
-    "type": "image/png"
 }
 ],
 "splash_pages": null,
-"start_url": "index.html",
+"start_url": "/index.html",
 "display": "standalone",
 "background_color": "#ffffff",
-  "theme_color": "#1aa8e9",
+  "theme_color": "#078856",
   "id": "Farol Academy",
   "screenshots": [],
   "categories": [
