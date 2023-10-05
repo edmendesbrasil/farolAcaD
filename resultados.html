@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resultados</title>
+</head>
+<body>
+    <div id="result"></div>
+
+    <script>
+        const resultDiv = document.getElementById('result');
+
+        // Obtenha a pontuação dos resultados da página anterior (quiz.html)
+        const queryParams = new URLSearchParams(window.location.search);
+        const score = parseInt(queryParams.get('score'));
+
+        resultDiv.innerHTML = `Você acertou ${score} de 10 perguntas.`;
+    </script>
+</body>
+</html>

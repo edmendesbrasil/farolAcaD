@@ -1,0 +1,378 @@
+{
+"name": "Farol Academy",
+"short_name": "Farol Academy",
+"dir": "ltr",
+"scope": "/",
+"orientation": "any",
+  "lang": "pt-br",
+"description": "Levando conhecimento até você.",
+"icons":[ 
+
+
+
+{
+    "src": "assets/img/AppIcons/android/mipmap-hdpi/ic_launcher.png",
+    "sizes": "72x72",
+    "type": "android/png"
+    
+},
+
+{
+    "src": "assets/img/AppIcons/android/mipmap-mdpi/ic_launcher.png",
+    "sizes": "48x48",
+    "type": "android/png"
+},
+
+{
+    "src": "assets/img/AppIcons/android/mipmap-xhdpi/ic_launcher.png",
+    "sizes": "96x96",
+    "type": "android/png"
+},
+
+{
+    "src": "assets/img/AppIcons/android/mipmap-xxhdpi/ic_launcher.png",
+    "sizes": "144x144",
+    "type": "android/png"
+},
+
+{
+    "src": "assets/img/AppIcons/android/mipmap-xxxhdpi/ic_launcher.png",
+    "sizes": "192x192",
+    "type": "android/png"
+},
+
+
+{
+    "src": "aassets/AppIcons/AssetsApp/AppIconSet/16.png",
+    "sizes": "16x16",
+    "type": "image/png"
+},
+
+{
+    "src": "assets/AppIcons/AssetsApp/AppIconSet/20.png",
+    "sizes": "20x20",
+    "type": "image/png"
+},
+
+{
+    "src": "assets/AppIcons/AssetsApp/AppIconSet/29.png",
+    "sizes": "29x29",
+    "type": "image/png"
+},
+
+{
+    "src": "assets/AppIcons/AssetsApp/AppIconSet/32.png",
+    "sizes": "32x32",
+    "type": "image/png"
+},
+
+{
+    "src": "assets/AppIcons/AssetsApp/AppIconSet/40.png",
+    "sizes": "40x40",
+    "type": "image/png"
+},
+
+{
+    "src": "assets/AppIcons/AssetsApp/AppIconSet/48.png",
+    "sizes": "48x48",
+    "type": "image/png"
+},
+
+{
+    "src": "assets/AppIcons/AssetsApp/AppIconSet/50.png",
+    "sizes": "50x50",
+    "type": "image/png"
+},
+
+{
+    "src": "assets/AppIcons/AssetsApp/AppIconSet/55.png",
+    "sizes": "55x55",
+    "type": "image/png"
+},
+
+{
+    "src": "assets/AppIcons/AssetsApp/AppIconSet/57.png",
+    "sizes": "57x57",
+    "type": "image/png"
+},
+
+{
+    "src": "assets/AppIcons/AssetsApp/AppIconSet/58.png",
+    "sizes": "58x58",
+    "type": "image/png"
+},
+
+{
+    "src": "assets/AppIcons/AssetsApp/AppIconSet/60.png",
+    "sizes": "60x60",
+    "type": "image/png"
+},
+
+{
+    "src": "assets/AppIcons/AssetsApp/AppIconSet/64.png",
+    "sizes": "64x64",
+    "type": "image/png"
+},
+
+{
+    "src": "assets/AppIcons/AssetsApp/AppIconSet/66.png",
+    "sizes": "66x66",
+    "type": "image/png"
+},
+
+{
+    "src": "assets/AppIcons/AssetsApp/AppIconSet/72.png",
+    "sizes": "72x72",
+    "type": "image/png"
+},
+
+{
+    "src": "assets/AppIcons/AssetsApp/AppIconSet/76.png",
+    "sizes": "76x76",
+    "type": "image/png"
+},
+
+{
+    "src": "assets/AppIcons/AssetsApp/AppIconSet/80.png",
+    "sizes": "80x80",
+    "type": "image/png"
+},
+
+{
+    "src": "assets/AppIcons/AssetsApp/AppIconSet/87.png",
+    "sizes": "87x87",
+    "type": "image/png"
+},
+
+{
+    "src": "assets/AppIcons/AssetsApp/AppIconSet/88.png",
+    "sizes": "88x88",
+    "type": "image/png"
+},
+
+{
+    "src": "assets/AppIcons/AssetsApp/AppIconSet/92.png",
+    "sizes": "92x92",
+    "type": "image/png"
+},
+
+{
+    "src": "assets/AppIcons/AssetsApp/AppIconSet/100.png",
+    "sizes": "100x100",
+    "type": "image/png"
+},
+
+{
+    "src": "assets/AppIcons/AssetsApp/AppIconSet/102.png",
+    "sizes": "102x102",
+    "type": "image/png"
+},
+
+{
+    "src": "assets/AppIcons/AssetsApp/AppIconSet/114.png",
+    "sizes": "114x114",
+    "type": "image/png"
+},
+
+{
+    "src": "assets/AppIcons/AssetsApp/AppIconSet/120.png",
+    "sizes": "120x120",
+    "type": "image/png"
+},
+
+{
+    "src": "assets/AppIcons/AssetsApp/AppIconSet/128.png",
+    "sizes": "128x128",
+    "type": "image/png"
+},
+
+{
+    "src": "assets/AppIcons/AssetsApp/AppIconSet/144.png",
+    "sizes": "144x144",
+    "type": "image/png"
+    
+},
+
+{
+    "src": "assets/AppIcons/AssetsApp/AppIconSet/152.png",
+    "sizes": "152x152",
+    "type": "image/png"
+},
+
+{
+    "src": "assets/AppIcons/AssetsApp/AppIconSet/167.png",
+    "sizes": "167x167",
+    "type": "image/png"
+},
+
+{
+    "src": "assets/AppIcons/AssetsApp/AppIconSet/172.png",
+    "sizes": "172x172",
+    "type": "image/png"
+},
+
+{
+    "src": "assets/AppIcons/AssetsApp/AppIconSet/180.png",
+    "sizes": "180x180",
+    "type": "image/png",
+    "purpose": "any"
+
+
+},
+
+{
+    "src": "assets/AppIcons/AssetsApp/AppIconSet/196.png",
+    "sizes": "196x196",
+    "type": "image/png",
+    "purpose": "maskable"
+},
+
+{
+    "src": "assets/AppIcons/AssetsApp/AppIconSet/216.png",
+    "sizes": "216x216",
+    "type": "image/png"
+},
+
+{
+    "src": "assets/AppIcons/AssetsApp/AppIconSet/256.png",
+    "sizes": "256x256",
+    "type": "image/png"
+},
+
+{
+    "src": "assets/img/AppIcons/AssetsApp/AppIconSet/512.png",
+    "sizes": "512x512",
+    "type": "image/png",
+    "purpose": "maskable any"
+},
+
+
+
+
+
+{
+    "src": "assets/img/testimonials/testimonial-1.jpg",
+    "sizes": "400x400",
+    "type": "img/jpg"
+},
+{
+    "src": "assets/img/testimonials/testimonial-2.jpg",
+    "sizes": "400x400",
+    "type": "img/jpg"
+},{
+    "src": "assets/img/testimonials/testimonial-3.jpg",
+    "sizes": "400x400",
+    "type": "img/jpg"
+},{
+    "src": "assets/img/testimonials/testimonial-4.jpg",
+    "sizes": "400x400",
+    "type": "img/jpg"
+},{
+    "src": "assets/img/testimonials/testimonial-5.jpg",
+    "sizes": "400x400",
+    "type": "img/jpg"
+},
+
+{
+    "src": "assets/img/trainers/01.jpg",
+    "sizes": "1362x1489",
+    "type": "img/jpg"
+},
+{
+    "src": "assets/img/trainers/02.jpg",
+    "sizes": "2153x1993",
+    "type": "img/jpg"
+},
+{
+    "src": "assets/img/trainers/03.jpg",
+    "sizes": "2577x2681",
+    "type": "img/jpg"
+},
+{
+    "src": "assets/img/trainers/trainer-1.jpg",
+    "sizes": "600x600",
+    "type": "img/jpg"
+},
+{
+    "src": "assets/img/trainers/trainer-2.jpg",
+    "sizes": "600x600",
+    "type": "img/jpg"
+},
+{
+    "src": "assets/img/trainers/trainer-3.jpg",
+    "sizes": "600x600",
+    "type": "img/jpg"
+},
+
+{
+    "src": "assets/img/about.jpg",
+    "sizes": "6288x4192",
+    "type": "img/jpg"
+},
+{
+    "src": "assets/img/course-1.jpg",
+    "sizes": "800x533",
+    "type": "img/jpg"
+},
+{
+    "src": "assets/img/course-3.jpg",
+    "sizes": "800x533",
+    "type": "img/jpg"
+},
+{
+    "src": "assets/img/course-details.jpg",
+    "sizes": "1100x523",
+    "type": "img/jpg"
+},
+{
+    "src": "assets/img/cyber.png",
+    "sizes": "4576x3051",
+    "type": "img/png"
+},
+{
+    "src": "assets/img/farol.png",
+    "sizes": "500x500",
+    "type": "img/png"
+},
+{
+    "src": "assets/img/hero-bg.jpg",
+    "sizes": "632x1230",
+    "type": "img/jpg"
+},
+{
+    "src": "assets/img/meioamb.jpg",
+    "sizes": "813x541",
+    "type": "img/jpg"
+},
+{
+    "src": "assets/img/petrogas.jpg",
+    "sizes": "6000x4000",
+    "type": "img/jpg"
+},
+{
+    "src": "assets/img/quimica.jpg",
+    "sizes": "3908x2605",
+    "type": "img/jpg"
+},
+{
+    "src": "assets/img/segtrab.jpeg",
+    "sizes": "800x533",
+    "type": "img/jpeg"
+}
+
+
+
+
+],
+"splash_pages": null,
+"start_url": "index.html",
+"display": "standalone",
+"background_color": "#ffffff",
+  "theme_color": "#1aa8e9",
+  "id": "Farol Academy",
+  "screenshots": [],
+  "categories": [
+    "educacao"
+    
+  ]
+}
