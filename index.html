@@ -5,11 +5,14 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Mentor Bootstrap Template - Index</title>
+  <title>Farol Acad</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
   <meta name="theme-color" content="#078856"/>
+<<<<<<< HEAD
   <link rek="manifest" href="./manifest.json">
+=======
+>>>>>>> 8813eb9cc7c88dad0d5a8ca5a0bcdf168ed8694d
 
   <!-- Favicons -->
   <link href="assets/img/farol.png" rel="icon">
@@ -81,6 +84,7 @@
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
 
+<<<<<<< HEAD
    <!-- Template Main JS File -->
    <script src="assets/js/main.js"></script>
    <script>
@@ -112,6 +116,37 @@
     </script>
  
 
+=======
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script>
+    let newWorker;
+     if ('serviceWorker' in navigator) {
+       navigator.serviceWorker.register('/service-worker.js').then(reg => {
+         reg.addEventListener('updatefound', () => {
+   
+           newWorker = reg.installing;
+           newWorker.addEventListener('statechange', () => {
+   
+             switch (newWorker.state) {
+               case 'installed':
+                 if (navigator.serviceWorker.controller) {
+                 }
+                 break;
+   
+             }
+           });
+         });
+       });
+       let refreshing;
+       navigator.serviceWorker.addEventListener('controllerchange', function () {
+         if (refreshing) return;
+         window.location.reload();
+         refreshing = true;
+       });
+     }
+   </script>
+>>>>>>> 8813eb9cc7c88dad0d5a8ca5a0bcdf168ed8694d
 
 </body>
 

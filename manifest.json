@@ -9,8 +9,8 @@
 "icons":[ 
 
 
-
 {
+<<<<<<< HEAD
     "src": "assets/img/AppIcons/android/mipmap-hdpi/ic_launcher.png",
     "sizes": "72x72",
     "type": "android/png"
@@ -44,6 +44,9 @@
 
 {
     "src": "aassets/img/AppIcons/AssetsApp/AppIconSet/16.png",
+=======
+    "src": "assets/img/AppIcons/AssetsApp/AppIconSet/16.png",
+>>>>>>> 8813eb9cc7c88dad0d5a8ca5a0bcdf168ed8694d
     "sizes": "16x16",
     "type": "image/png"
 },
@@ -101,8 +104,8 @@
     "sizes": "58x58",
     "type": "image/png"
 },
-
 {
+<<<<<<< HEAD
     "src": "assets/img/AppIcons/AssetsApp/AppIconSet/60.png",
     "sizes": "60x60",
     "type": "image/png"
@@ -169,6 +172,8 @@
 },
 
 {
+=======
+>>>>>>> 8813eb9cc7c88dad0d5a8ca5a0bcdf168ed8694d
     "src": "assets/img/AppIcons/AssetsApp/AppIconSet/114.png",
     "sizes": "114x114",
     "type": "image/png"
@@ -180,11 +185,15 @@
     "type": "image/png"
 },
 
+<<<<<<< HEAD
 {
     "src": "assets/img/AppIcons/AssetsApp/AppIconSet/128.png",
     "sizes": "128x128",
     "type": "image/png"
 },
+=======
+
+>>>>>>> 8813eb9cc7c88dad0d5a8ca5a0bcdf168ed8694d
 
 {
     "src": "assets/img/AppIcons/AssetsApp/AppIconSet/144.png",
@@ -194,6 +203,7 @@
 },
 
 {
+<<<<<<< HEAD
     "src": "assets/img/AppIcons/AssetsApp/AppIconSet/152.png",
     "sizes": "152x152",
     "type": "image/png"
@@ -235,6 +245,8 @@
 },  
 
 {
+=======
+>>>>>>> 8813eb9cc7c88dad0d5a8ca5a0bcdf168ed8694d
     "src": "assets/img/AppIcons/AssetsApp/AppIconSet/256.png",
     "sizes": "256x256",
     "type": "image/png"
@@ -243,6 +255,7 @@
 {
     "src": "assets/img/AppIcons/AssetsApp/AppIconSet/512.png",
     "sizes": "512x512",
+<<<<<<< HEAD
     "type": "image/png",
     "purpose": "maskable any"
 },
@@ -253,12 +266,17 @@
     
 }
 
+=======
+    "type": "image/png",    
+    "purpose": "any maskable"
+}
+>>>>>>> 8813eb9cc7c88dad0d5a8ca5a0bcdf168ed8694d
 ],
 "splash_pages": null,
-"start_url": "index.html",
+"start_url": "/index.html",
 "display": "standalone",
 "background_color": "#ffffff",
-  "theme_color": "#1aa8e9",
+  "theme_color": "#078856",
   "id": "Farol Academy",
   "screenshots": [],
   "categories": [

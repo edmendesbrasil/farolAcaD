@@ -853,6 +853,9 @@ section {
 /*--------------------------------------------------------------
 # Courses
 --------------------------------------------------------------*/
+
+
+
 .courses .course-item {
   border-radius: 5px;
   border: 1px solid #eef0ef;
@@ -1686,4 +1689,9 @@ section {
   background: #3ac162;
   color: #fff;
   text-decoration: none;
+}
+
+.max-width-1{
+  display: flex;
+  max-width: 400px;
 }
