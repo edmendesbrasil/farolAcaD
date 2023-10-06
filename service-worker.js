@@ -80,7 +80,7 @@
     // service-worker.js
 
 // Define o nome do cache
-const cacheName = 'farol-acad-cach';
+const cacheName = 'farol-acad-cache';
 
 // Lista de arquivos a serem armazenados em cache, incluindo imagens
 const filesToCache = [
