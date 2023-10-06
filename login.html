@@ -52,12 +52,12 @@
 
                 <nav id="navbar" class="navbar order-last order-lg-0">
                     <ul>
-                      <li><a class="active" href="index.html">Inicio</a></li>          
-                      <li><a href="contact.html">Dashboard</a></li>
-                      <li><a href="courses.html">Cursos</a></li>
-                      <li><a href="trainers.html">Certificados</a></li>
-                      <li><a href="Rank.html">Ranking</a></li>
-                      <li><a href="about.html">Sobre</a></li>
+                        <li><a class="active" href="index.html">Inicio</a></li>
+                        <li><a id="dashboardLink" href="contact.html">Dashboard</a></li>
+                        <li><a id="coursesLink" href="courses.html">Cursos</a></li>
+                        <li><a id="certificatesLink" href="trainers.html">Certificados</a></li>
+                        <li><a id="rankingLink" href="Rank.html">Ranking</a></li>
+                        <li><a id="aboutLink" href="about.html">Sobre</a></li>
                     </ul>
                     <i class="bi bi-list mobile-nav-toggle"></i>
                 </nav>
@@ -72,10 +72,10 @@
             <div class="login-container">
                 <h1>LOGIN</h1>
                 <form>
-                    <input type="text" placeholder="Usuário">
-                    <input type="password" placeholder="Senha">
+                    <input type="text" id="user" placeholder="Usuário">
+                    <input type="password" id="senha" placeholder="Senha">
                     <div class="text-end mt-3">
-                        <a href="contact.html" class="get-started-btn">
+                        <a  onclick="login()" class="get-started-btn">
                             <strong>ENTRAR</strong>
                         </a>
                     </div>
@@ -91,13 +91,68 @@
 
             <!-- Template Main JS File -->
             <script src="assets/js/main.js"></script>
+            <script>
+                const pessoa = {
+                    "nome" : "Cadastro",
+                    "usuario" : "joao.silva",
+                    "senha" : "123456",    
+                    "data de nascimento" : "01/01/1990",
+                    "email" : "joao.silva@gmail.com",
+                    "telefone" : "(11) 9999-9999",
+                    "estado civil" : "Solteiro",
+                    "empresa" : "Suape",
+                    "setor" : "Engenharia"
+                }
+                let isLoggedIn = false; // Altere para true se o usuário estiver logado
+
+        function login() {
+            const user = document.getElementById("user").value;
+            const senha = document.getElementById("senha").value;
+            if (user === pessoa.usuario && senha === pessoa.senha) {
+                isLoggedIn = true;
+                alert('Logado com sucesso');
+                atualizarMenu(); // Chame a função para atualizar o menu após o login
+            } else {
+                alert('Credenciais inválidas. Tente novamente.');
+                location.reload(); // Recarregue a página em caso de credenciais inválidas
+            }
+        }
+
+        // Função para habilitar ou desabilitar os links do menu com base no estado de login
+        function atualizarMenu() {
+    const dashboardLink = document.getElementById('dashboardLink');
+    const coursesLink = document.getElementById('coursesLink');
+    const certificatesLink = document.getElementById('certificatesLink');
+    const rankingLink = document.getElementById('rankingLink');
+    const aboutLink = document.getElementById('aboutLink');
+
+    if (isLoggedIn) {
+        // Se o usuário estiver logado, remova o atributo "disabled" dos links do menu
+        dashboardLink.removeAttribute('disabled');
+        coursesLink.removeAttribute('disabled');
+        certificatesLink.removeAttribute('disabled');
+        rankingLink.removeAttribute('disabled');
+        aboutLink.removeAttribute('disabled');
+    } else {
+        // Se o usuário não estiver logado, adicione o atributo "disabled" aos links do menu
+        dashboardLink.setAttribute('disabled', 'true');
+        coursesLink.setAttribute('disabled', 'true');
+        certificatesLink.setAttribute('disabled', 'true');
+        rankingLink.setAttribute('disabled', 'true');
+        aboutLink.setAttribute('disabled', 'true');
+    }
+}
+
+        // Chame a função para atualizar o estado do menu quando a página carregar
+            window.onload = atualizarMenu;
+            </script>
 
         </body>
 
         <style>
             body {
                 font-family: Arial, sans-serif;
-                background-color: #48eb7e;
+                background-color: #256b3c;
                 margin: 0;
                 padding: 0;
                 display: flex;
