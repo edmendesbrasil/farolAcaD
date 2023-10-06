@@ -2,7 +2,7 @@
     "name": "Farol Academy",
     "short_name": "Farol Academy",
     "dir": "ltr",
-    "scope": "/",
+    "scope": "/index.html",
     "orientation": "any",
       "lang": "pt-br",
     "description": "Levando conhecimento até você.",
@@ -12,7 +12,7 @@
     {
         "src": "assets/img/AppIcons/AssetsApp/AppIconSet/16.png",
         "sizes": "16x16",
-        "type": "img/png"
+        "type": "image/png"
     },
     
     {
