@@ -2,7 +2,7 @@
     "name": "Farol Academy",
     "short_name": "Farol Academy",
     "dir": "ltr",
-    "scope": "/index.html",
+    "scope": "/",
     "orientation": "any",
       "lang": "pt-br",
     "description": "Levando conhecimento até você.",
