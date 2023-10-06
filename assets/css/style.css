@@ -1721,3 +1721,12 @@ section {
   border-radius: 50%;
   border: 3px solid rgb(25, 94, 25);
 }
+
+.pergunta{
+  font-weight: 700;
+  color: #078856;
+  text-transform: uppercase;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  margin-top: 2px;
+  padding: 30px;
+}
