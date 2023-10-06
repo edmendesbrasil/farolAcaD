@@ -1730,3 +1730,19 @@ section {
   margin-top: 2px;
   padding: 30px;
 }
+
+.question-container{
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  height: 45rem;
+}
+
+.espaco-botton{
+  margin-bottom: 10rem;
+  height: 100px;
+}
+
+.colum{
+  flex-direction: column;
+}

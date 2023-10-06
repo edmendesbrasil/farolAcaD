@@ -52,12 +52,24 @@
 
                 <nav id="navbar" class="navbar order-last order-lg-0">
                     <ul>
-                        <li><a class="active" href="index.html">Inicio</a></li>          
-                        <li><a href="contact.html">Dashboard</a></li>
-                        <li><a href="courses.html">Cursos</a></li>
-                        <li><a href="trainers.html">Certificados</a></li>
-                        <li><a href="Rank.html">Ranking</a></li>
-                        <li><a href="about.html">Sobre</a></li>
+                        <li>
+                            <a class="active" href="index.html">Inicio</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Dashboard</a>
+                        </li>
+                        <li>
+                            <a href="courses.html">Cursos</a>
+                        </li>
+                        <li>
+                            <a href="trainers.html">Certificados</a>
+                        </li>
+                        <li>
+                            <a href="Rank.html">Ranking</a>
+                        </li>
+                        <li>
+                            <a href="about.html">Sobre</a>
+                        </li>
                     </ul>
                     <i class="bi bi-list mobile-nav-toggle"></i>
                 </nav>
@@ -70,169 +82,162 @@
             <main id="main">
 
                 <!-- ======= Breadcrumbs ======= -->
-                <div class=" breadcrumbs">
-                    <h2>Responda as perguntas</h2>
-                        <p>As perguntas são multipla escolha, não tem tempo para responder, assim que
-                            terminar de colocar suas respostas, clique no botão de ENVIAR.
-                        </p>
+                <div class="centralizar colum margin-top">
+                     <h2>Responda as perguntas</h2>
+                     
+                    <p>As perguntas são multipla escolha, não tem tempo para responder, assim que
+                        terminar de colocar suas respostas, clique no botão de ENVIAR.
+                    </p>
                 </div>
-                    
-                        
+                   
                 
+
                 <!-- End Breadcrumbs -->
                 <!-- Substitua os botões padrão pelos seus botões personalizados -->
 
                 <!-- ======= Events Section ======= -->
                 <div class="container">
-
-                    <div id="questionCarousel" class="carousel slide" data-bs-ride="false">
-                        <div class="carousel-inner">
-                            <!-- Pergunta 1 -->
-                            <div class="carousel-item active">
-                                <div id="question-container">
-                                    <div class="centralizar">
-                                        <h3 id="question-text"></h3>
-                                    </div>
-
-                                    <div id="options-container">
-                                        <!-- Opções de resposta serão inseridas aqui -->
-                                    </div>
-                                </div>
-                            </div>
+                    <!-- Pergunta 1 -->
+                    <div id="question-container">
+                        <h3 id="question-text"></h3>
+                        <div id="options-container">
+                            <!-- Opções de resposta serão inseridas aqui -->
                         </div>
                     </div>
+
+                    <!-- BOTAO SO APARECE NA PERGUNTA 10-->
+
+                    <div class="centralizar">
+                        <button
+                            onclick="getScore()"
+                            id="botaoresp"
+                            style="display: none;"
+                            class="btn btn-success ">
+                            <strong>ENVIAR RESPOSTAS</strong>
+                        </button>
+                    </div>
+
                 </div>
-           
-        <!-- BOTAO SO APARECE NA PERGUNTA 10-->
 
-        <div class="centralizar">
-            <button
-                onclick="getScore()"
-                id="botaoresp"
-                style="display: none;"
-                class="btn btn-success ">
-                <strong>ENVIAR RESPOSTAS</strong>
-            </button>
-        </div>
-            
-        
+                <div class="espaco-botton"></div>
 
-    </main>
-    <!-- End #main -->
 
-    <!-- Vendor JS Files -->
-    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-    <script src="assets/vendor/aos/aos.js"></script>
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
+            </main>
+            <!-- End #main -->
 
-    <!-- Template Main JS File -->
-    <script src="assets/js/main.js"></script>
+            <!-- Vendor JS Files -->
+            <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+            <script src="assets/vendor/aos/aos.js"></script>
+            <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+            <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+            <script src="assets/vendor/php-email-form/validate.js"></script>
 
-    <script>
-        // URL da API para obter as perguntas
-        const apiUrl = "https://opentdb.com/api.php?amount=10&category=30&type=multiple";
+            <!-- Template Main JS File -->
+            <script src="assets/js/main.js"></script>
 
-        // Elementos HTML
-        const questionText = document.getElementById("question-text");
-        const optionsContainer = document.getElementById("options-container");
+            <script>
+                // URL da API para obter as perguntas
+                const apiUrl = "https://opentdb.com/api.php?amount=10&category=30&type=multiple";
 
-        // Variável para manter o índice da pergunta atual
-        let currentQuestionIndex = 0;
+                // Elementos HTML
+                const questionText = document.getElementById("question-text");
+                const optionsContainer = document.getElementById("options-container");
 
-        //variavel de score
-        let score = 0;
+                // Variável para manter o índice da pergunta atual
+                let currentQuestionIndex = 0;
 
-        // Função para carregar as perguntas da API
-        async function fetchQuestions() {
-            try {
-                const response = await fetch(apiUrl);
-                if (!response.ok) {
-                    throw new Error("Não foi possível obter as perguntas.");
+                //variavel de score
+                let score = 0;
+
+                // Função para carregar as perguntas da API
+                async function fetchQuestions() {
+                    try {
+                        const response = await fetch(apiUrl);
+                        if (!response.ok) {
+                            throw new Error("Não foi possível obter as perguntas.");
+                        }
+                        const data = await response.json();
+                        return data.results;
+                    } catch (error) {
+                        console.error(error);
+                        alert("Houve um erro ao buscar as perguntas.");
+                    }
                 }
-                const data = await response.json();
-                return data.results;
-            } catch (error) {
-                console.error(error);
-                alert("Houve um erro ao buscar as perguntas.");
-            }
-        }
 
-        // Função para exibir uma pergunta e opções de resposta
-        function displayQuestion(questionData) {
-            // Exibir a pergunta
-            questionText.textContent = questionData.question;
+                // Função para exibir uma pergunta e opções de resposta
+                function displayQuestion(questionData) {
+                    // Exibir a pergunta
+                    questionText.textContent = questionData.question;
 
-            questionText
-                .classList
-                .add("centralizar", "pergunta");
+                    questionText
+                        .classList
+                        .add("centralizar", "pergunta");
 
-            // Limpar as opções de resposta anteriores
-            optionsContainer.innerHTML = "";
+                    // Limpar as opções de resposta anteriores
+                    optionsContainer.innerHTML = "";
 
-            // Exibir opções de resposta (corretas e incorretas)
-            const allOptions = [
-                ...questionData.incorrect_answers,
-                questionData.correct_answer
-            ];
-            allOptions.sort(() => Math.random() - 0.5); // Embaralhar as opções
+                    // Exibir opções de resposta (corretas e incorretas)
+                    const allOptions = [
+                        ...questionData.incorrect_answers,
+                        questionData.correct_answer
+                    ];
+                    allOptions.sort(() => Math.random() - 0.5); // Embaralhar as opções
 
-            allOptions.forEach((option, index) => {
-                const optionElement = document.createElement("button");
-                optionElement
-                    .classList
-                    .add("option", "btn", "btn-outline-info", "col-10", "mb-3");
-                optionElement.textContent = option;
-                optionElement.addEventListener(
-                    "click",
-                    () => checkAnswer(option, questionData.correct_answer)
-                );
-                optionsContainer.appendChild(optionElement);
-            });
-        }
+                    allOptions.forEach((option, index) => {
+                        const optionElement = document.createElement("button");
+                        optionElement
+                            .classList
+                            .add("option", "btn", "btn-outline-info", "col-10", "mb-3");
+                        optionElement.textContent = option;
+                        optionElement.addEventListener(
+                            "click",
+                            () => checkAnswer(option, questionData.correct_answer)
+                        );
+                        optionsContainer.appendChild(optionElement);
+                    });
+                }
 
-        // Função para verificar se a resposta selecionada está correta
-        function checkAnswer(selectedAnswer, correctAnswer) {
-            if (selectedAnswer === correctAnswer) {
-                // Resposta correta
-                alert("Resposta correta!");
-                score++;
-            } else {
-                // Resposta incorreta
-                alert("Resposta incorreta. Tente novamente.");
-            }
+                // Função para verificar se a resposta selecionada está correta
+                function checkAnswer(selectedAnswer, correctAnswer) {
+                    if (selectedAnswer === correctAnswer) {
+                        // Resposta correta
+                        alert("Resposta correta!");
+                        score++;
+                    } else {
+                        // Resposta incorreta
+                        alert("Resposta incorreta. Tente novamente.");
+                    }
 
-            // Carregar a próxima pergunta ou redirecionar para resultados
-            currentQuestionIndex++;
-            if (currentQuestionIndex < questions.length) {
-                displayQuestion(questions[currentQuestionIndex]);
-            } else {
-                var botao = document.getElementById('botaoresp');
-                botao.style.display = "block";
-            }
-        }
+                    // Carregar a próxima pergunta ou redirecionar para resultados
+                    currentQuestionIndex++;
+                    if (currentQuestionIndex < questions.length) {
+                        displayQuestion(questions[currentQuestionIndex]);
+                    } else {
+                        var botao = document.getElementById('botaoresp');
+                        botao.style.display = "block";
+                    }
+                }
 
-        // Inicialização: Carregar as perguntas da API e exibir a primeira pergunta
-        let questions = [];
+                // Inicialização: Carregar as perguntas da API e exibir a primeira pergunta
+                let questions = [];
 
-        fetchQuestions()
-            .then((data) => {
-                questions = data;
-                displayQuestion(questions[currentQuestionIndex]);
-            })
-            .catch((error) => {
-                console.error(error);
-                alert("Houve um erro ao buscar as perguntas.");
-            });
+                fetchQuestions()
+                    .then((data) => {
+                        questions = data;
+                        displayQuestion(questions[currentQuestionIndex]);
+                    })
+                    .catch((error) => {
+                        console.error(error);
+                        alert("Houve um erro ao buscar as perguntas.");
+                    });
 
-        function getScore() {
-            const resultText = `Você acertou ${score} de ${questions.length + 1} perguntas.`;
-            alert(resultText);
-            window.location.href = "course-details.html";
-        }
-    </script>
+                function getScore() {
+                    const resultText = `Você acertou ${score} de ${questions.length + 1} perguntas.`;
+                    alert(resultText);
+                    window.location.href = "course-details.html";
+                }
+            </script>
 
-</body>
+        </body>
 
-</html>
+    </html>
