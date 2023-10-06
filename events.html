@@ -70,14 +70,15 @@
             <main id="main">
 
                 <!-- ======= Breadcrumbs ======= -->
-                <div class="breadcrumbs" data-aos="fade-in">
-                    <div class="container">
-                        <h2>Responda as perguntas</h2>
+                <div class=" breadcrumbs">
+                    <h2>Responda as perguntas</h2>
                         <p>As perguntas são multipla escolha, não tem tempo para responder, assim que
                             terminar de colocar suas respostas, clique no botão de ENVIAR.
                         </p>
-                    </div>
                 </div>
+                    
+                        
+                
                 <!-- End Breadcrumbs -->
                 <!-- Substitua os botões padrão pelos seus botões personalizados -->
 
@@ -90,7 +91,7 @@
                             <div class="carousel-item active">
                                 <div id="question-container">
                                     <div class="centralizar">
-                                        <h3 id="question-text">Pergunta aqui</h3>
+                                        <h3 id="question-text"></h3>
                                     </div>
 
                                     <div id="options-container">
@@ -98,26 +99,23 @@
                                     </div>
                                 </div>
                             </div>
-
                         </div>
-
                     </div>
-
                 </div>
-            </div>
-            <br>
-        </div>
+           
         <!-- BOTAO SO APARECE NA PERGUNTA 10-->
 
-        <div class="text-end mt-1">
+        <div class="centralizar">
             <button
                 onclick="getScore()"
                 id="botaoresp"
                 style="display: none;"
-                class="get-started-btn">
+                class="btn btn-success ">
                 <strong>ENVIAR RESPOSTAS</strong>
             </button>
         </div>
+            
+        
 
     </main>
     <!-- End #main -->
@@ -134,8 +132,7 @@
 
     <script>
         // URL da API para obter as perguntas
-        const apiUrl = "https://opentdb.com/api.php?amount=10&category=18&difficulty=medium&type=multi" +
-                "ple";
+        const apiUrl = "https://opentdb.com/api.php?amount=10&category=30&type=multiple";
 
         // Elementos HTML
         const questionText = document.getElementById("question-text");
