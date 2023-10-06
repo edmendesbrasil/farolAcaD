@@ -531,10 +531,11 @@ section {
 }
 
 .breadcrumbs {
-  margin-top: 73px;
+  margin-top: 14rem;
   text-align: center;
+  padding: 20px;
+  margin-bottom: 1px;
   
-  padding: 30px 0;
   color: #222121;
 }
 
@@ -547,6 +548,7 @@ section {
 .breadcrumbs h2 {
   font-size: 32px;
   font-weight: 500;
+  margin-bottom: 2px;
 }
 
 .breadcrumbs p {
@@ -1086,7 +1088,7 @@ section {
 --------------------------------------------------------------*/
 .course-details h3 {
   font-size: 24px;
-  margin: 30px 0 15px 0;
+  margin: 3px 0 15px 0;
   font-weight: 700;
   position: relative;
   padding-bottom: 10px;
@@ -1134,6 +1136,10 @@ section {
 
 .course-details .course-info a {
   color: #657a6d;
+}
+
+.course-details .container{
+  margin-top: 2rem;
 }
 
 /*--------------------------------------------------------------
@@ -1696,3 +1702,22 @@ section {
   max-width: 400px;
 }
 
+.margin-top{
+  margin-top: 0.5rem;
+
+}
+
+.margin-botton{
+  margin-bottom: 0.5rem;
+}
+
+.centralizar{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.fotoRedonda{
+  border-radius: 50%;
+  border: 3px solid rgb(25, 94, 25);
+}
