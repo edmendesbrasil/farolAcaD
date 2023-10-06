@@ -137,31 +137,10 @@ const filesToCache = [
     './assets/AppIcons/AssetsApp/AppIconSet/icon_196.png',
     './assets/AppIcons/AssetsApp/AppIconSet/icon_216.png',
     './assets/AppIcons/AssetsApp/AppIconSet/icon_256.png',
-    './assets/AppIcons/AssetsApp/AppIconSet/icon_512.png',
+    './assets/AppIcons/AssetsApp/AppIconSet/icon_512.png'
 
 
-    './assets/img/testimonials/testimonial-1.jpg',
-    './assets/img/testimonials/testimonial-2.jpg',
-    './assets/img/testimonials/testimonial-3.jpg',
-    './assets/img/testimonials/testimonial-4.jpg',
-    './assets/img/testimonials/testimonial-5.jpg',
-    './assets/img/trainers/01.jpg',
-    './assets/img/trainers/02.jpg',
-    './assets/img/trainers/03.jpg',
-    './assets/img/trainers/trainer-1.jpg',
-    './assets/img/trainers/trainer-2.jpg',
-    './assets/img/trainers/trainer-3.jpg',
-    './assets/img/about.jpg',
-    './assets/img/course-1.jpg',
-    './assets/img/course-3.jpg',
-    './assets/img/course-details.jpg',
-    './assets/img/cyber.png',
-    './assets/img/farol.png',
-    './assets/img/hero-bg.jpg',
-    './assets/img/meioamb.jpg',
-    './assets/img/petrogas.jpg',
-    './assets/img/quimica.jpg',
-    './assets/img/segtrab.jpeg'
+    
 ];
 
 // Evento de instalação do service worker
