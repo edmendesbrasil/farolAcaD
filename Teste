@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Teste de Comunicação</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+
+        .question {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Teste de Comunicação</h1>
+
+    <form id="quizForm">
+        <div class="question">
+            <p>1. Imagine que você precisa passar uma informação importante para sua equipe. Qual o resultado da transformação do seu pensamento em algo que possa ser compreendido?</p>
+            <label><input type="radio" name="q1" value="a"> a) Canal</label><br>
+            <label><input type="radio" name="q1" value="b"> b) Ruído</label><br>
+            <label><input type="radio" name="q1" value="c"> c) Mensagem</label><br>
+            <label><input type="radio" name="q1" value="d"> d) Feedback</label><br>
+            <label><input type="radio" name="q1" value="e"> e) Decodificação</label><br>
+        </div>
+        
+        <div class="question">
+            <p>2. Em sua empresa, você precisa comunicar oficialmente uma nova política de trabalho. Qual canal você utilizaria?</p>
+            <label><input type="radio" name="q2" value="a"> a) Um mural de avisos</label><br>
+            <label><input type="radio" name="q2" value="b"> b) Uma conversa informal entre colegas durante o almoço</label><br>
+            <label><input type="radio" name="q2" value="c"> c) Um e-mail pessoal para um amigo no trabalho</label><br>
+            <label><input type="radio" name="q2" value="d"> d) Um grupo de WhatsApp de colegas de trabalho</label><br>
+            <label><input type="radio" name="q2" value="e"> e) Um bilhete anônimo deixado na mesa de um colega</label><br>
+        </div>
+
+        <div class="question">
+            <p>3. Durante uma reunião, você percebe que alguns colegas parecem confusos com a sua apresentação. O que pode estar causando essa dificuldade de entendimento?</p>
+            <label><input type="radio" name="q3" value="a"> a) Feedback claro e preciso</label><br>
+            <label><input type="radio" name="q3" value="b"> b) Mensagem bem codificada</label><br>
+            <label><input type="radio" name="q3" value="c"> c) Escolha adequada do canal</label><br>
+            <label><input type="radio" name="q3" value="d"> d) Diferenças culturais entre emissor e receptor</label><br>
+            <label><input type="radio" name="q3" value="e"> e) Compreensão mútua da mensagem</label><br>
+        </div>
+
+        <div class="question">
+            <p>4. Após apresentar um projeto, você pergunta à sua equipe se eles entenderam a proposta. Qual o objetivo dessa pergunta?</p>
+            <label><input type="radio" name="q4" value="a"> a) Codificar a mensagem do emissor</label><br>
+            <label><input type="radio" name="q4" value="b"> b) Escolher o canal de comunicação adequado</label><br>
+            <label><input type="radio" name="q4" value="c"> c) Criar barreiras à comunicação</label><br>
+            <label><input type="radio" name="q4" value="d"> d) Verificar se a mensagem foi compreendida corretamente</label><br>
+            <label><input type="radio" name="q4" value="e"> e) Iniciar o processo de comunicação</label><br>
+        </div>
+
+        <div class="question">
+            <p>5. No cafezinho, você e seus colegas conversam sobre a nova série que está fazendo sucesso. Que tipo de canal de comunicação é esse?</p>
+            <label><input type="radio" name="q5" value="a"> a) Estabelecidos pela organização</label><br>
+            <label><input type="radio" name="q5" value="b"> b) Utilizados apenas para mensagens pessoais</label><br>
+            <label><input type="radio" name="q5" value="c"> c) Criados espontaneamente</label><br>
+            <label><input type="radio" name="q5" value="d"> d) Sempre mais eficazes que os canais formais</label><br>
+            <label><input type="radio" name="q5" value="e"> e) Controlados pela hierarquia da empresa</label><br>
+        </div>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    <div id="result"></div>
+
+    <script>
+        const quizForm = document.getElementById('quizForm');
+        const resultDiv = document.getElementById('result');
+
+        quizForm.addEventListener('submit', (event) => {
+            event.preventDefault();
+
+            const answers = {
+                q1: 'c',
+                q2: 'a',
+                q3: 'd',
+                q4: 'd',
+                q5: 'c'
+            };
+
+            let score = 0;
+            for (let i = 1; i <= 5; i++) {
+                const selectedAnswer = document.querySelector(`input[name=q${i}]:checked`);
+                if (selectedAnswer && selectedAnswer.value === answers[`q${i}`]) {
+                    score++;
+                }
+            }
+
+            resultDiv.textContent = `Você acertou ${score} de 5 questões.`;
+        });
+    </script>
+</body>
+</html>
